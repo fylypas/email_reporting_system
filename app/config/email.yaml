@@ -1,0 +1,13 @@
+smtp:
+  server: "smtp.gmail.com"
+  port: 587
+  username: "<--- email--->" 
+  password: "<--- App Password (16 digit code) --->"  
+  
+sender:
+  name: "<--- your app name --->"
+  email: "<--- email--->"
+
+retry:
+  max_attempts: 3
+  delay_seconds: 5

@@ -1,0 +1,27 @@
+{
+  "name": "automated-reporting-system",
+  "version": "1.0.0",
+  "description": "Event-driven ETL pipeline for automated email reporting",
+  "main": "app/main.py",
+  "scripts": {
+    "start": "python -m app.main",
+    "setup": "pip install -r requirements.txt",
+    "dev": "nodemon --exec python -m app.main --ext py,yaml",
+    "clean:state": "rimraf data/state/processed_emails.json",
+    "clean:logs": "rimraf logs/*.log",
+    "clean:output": "rimraf data/output/*.csv",
+    "reset": "npm run clean:state && npm run clean:output && echo 'System Reset Complete'"
+  },
+  "keywords": [
+    "python",
+    "etl",
+    "automation",
+    "reporting"
+  ],
+  "author": "Jojo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5"
+  }
+}

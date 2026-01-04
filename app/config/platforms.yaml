@@ -1,0 +1,16 @@
+platforms:
+  meta:
+    name: "Meta"
+    keywords: ["facebook", "instagram", "fb", "meta"]
+    recipient: ""
+  
+  google:
+    name: "Google"
+    keywords: ["google", "youtube", "gclid", "adwords"]
+    recipient: ""
+
+# Default configuration for unclassified rows (optional)
+  others:
+    name: "Others"
+    keywords: []
+    recipient: "admin@email.com"

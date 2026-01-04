@@ -1,0 +1,52 @@
+app:
+  name: "AutoReportingSystem"
+  env: "production"
+  log_level: "INFO"
+
+files:
+  input_path: "data/input/Demo Data – Orders.csv"
+  output_path: "data/output/"
+  archive_path: "data/archive/"
+
+columns:
+  required:
+    - "Origin Referrer"
+    - "Landing Page"
+    - "Grand Total"
+    - "Store Credits Amount"
+    - "Merchant Order Status"
+
+  grand_total: "Grand Total"
+  store_credits: "Store Credits Amount"
+  landing_page: "Landing Page"
+  
+  # The pivot column for splitting data
+  platform_pivot: "Origin Referrer" 
+  
+  # Used for Risk Calculation
+  risk_status: "Merchant Order Status"
+
+  # Discount Logic Columns
+  total_discount: "Total Discount"
+  granular_discounts:
+    - "Coupon Code Based Discount"
+    - "Automatic Discount"
+    - "Custom Discount"
+    - "Payment Discount"
+    - "Prepaid Discount"
+    - "Loyalty Points Discount"
+    - "Post Edit Order Discount"
+
+# Lower is better, Higher is worse
+risk_scoring:
+  confirmed: 1
+  pending: 5
+  failed: 10
+  cancelled: 10
+  default: 5
+  
+state:
+  processed_ids_file: "data/state/processed_emails.json"
+
+email_listener: "app/config/email_listener.yaml"
+stakeholders: "app/config/stakeholders.yaml"

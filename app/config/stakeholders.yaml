@@ -1,0 +1,8 @@
+# Testing
+stakeholders:
+  - id: "test_user"
+    name: "Test Engineer"
+    email: "nishtha241103@gmail.com"   
+    allowed_platforms: ["meta", "google"]
+    include_kpis: true
+    include_breakdown: true

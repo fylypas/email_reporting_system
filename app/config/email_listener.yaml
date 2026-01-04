@@ -1,0 +1,14 @@
+imap:
+  server: "imap.gmail.com"
+  port: 993
+  username: "<--- Your email--->" 
+  password: "<--- Your App Password (16 digit code) --->"             
+  folder: "INBOX"
+
+polling:
+  interval_seconds: 60
+
+rules:
+  subject_keyword: "Data Dump - Orders"
+  allowed_extensions: [".csv"]
+  save_dir: "data/input/downloads/"
